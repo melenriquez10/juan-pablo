@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: #38418b;
+	height: 80px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.logo {
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+	color: #d5d9db;
+	text-decoration: none;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #f5f3f3;
+	text-decoration: none;
+}
+
+.hero {
+	background: url('https://cdn.pixabay.com/photo/2015/03/26/09/54/food-690547_960_720.jpg') no-repeat center center/cover;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero h1 {
+	color: #131414;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    position: relative;
+    top: 8px;
+    left:-38px;
+}
+
+.btn {
+	background: #00a2ff;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 25px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background: #005f8e;
+}
+.about {
+	background: #f5faff;
+	padding: 100px 0;
+}
+
+.about h2 {
+	font-size: 36px;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #005f8e;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.about p {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	color: #333;
+	text-align: center;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	nav ul {
+		margin-top: 20px;
+	}
+	nav ul li {
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+}
+body{
+    background-color: #B2BABB;
+}
+
